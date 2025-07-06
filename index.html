@@ -9,10 +9,49 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/hcs.css">
-    <script src="scripts/hcs.js" defer></script>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <script src="scripts/home.js" defer></script>
 </head>    
 <body>
-    
+    <header>
+        <div class="logo">
+        <img src="images/logo.png" alt="Site Logo">
+        <span>Terri-Ann Bassaragh</span>
+        </div>
+        <button id="menu-button" aria-label="Toggle Navigation">&#9776;</button>
+        <nav id="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="#">Chamber</a>
+            <a href="#">Final</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Home</h1>
+        <section>
+            <h2>About Me</h2>
+            <p>My name is Terri-Ann Bassaragh. I was born and raised in Jamaica and it is still my current residence.
+                I'm a recent graduate from high school who is 17 years old. I am currently doing on on the job training
+                at my local Probation Office specialising in Office Administration. I aspire to be an actuary in the
+                future and hence the reason for doing this course.</p>
+        </section>
+        <section>
+            <h2>Photo</h2>
+            <img src="images/profile.jpg" alt="Profile">
+        </section>
+        <section>
+            <h2>Web Certificate Course</h2>
+            <div id="course-filters">
+            <button id="all-btn">All Courses</button>
+            <button id="wdd-btn">WDD Courses</button>
+            <button id="cse-btn">CSE Courses</button>
+            </div>
+            <div id="courses"></div>
+            <p>Total Credits: <span id="total-credits">0</span></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> Terri-Ann Bassaragh, Jamaica </p><br>
+        <p> Last modified: <span id="modified"></span></p>
+    </footer>
 </body>
 </html>
