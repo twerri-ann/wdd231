@@ -40,10 +40,16 @@ document.getElementById('wdd-btn').addEventListener('click', () => displayCourse
 document.getElementById('cse-btn').addEventListener('click', () => displayCourses('CSE'));
 
 
-const yearSpan = document.getElementById("year");
-const currentYear = new Date().getFullYear();
-yearSpan.textContent = currentYear;
+const menuButton = document.getElementById('menu-button');
+const navMenu = document.getElementById('nav-menu').querySelector('ul');
 
+menuButton.addEventListener('click', () => {
+  navMenu.classList.toggle('show');
+});
 
-const modifiedSpan = document.getElementById("modified");
-modifiedSpan.textContent = document.lastModified;
+// Dynamic copyright year
+document.getElementById('year').textContent = new Date().getFullYear();
+
+// Last modified
+document.getElementById('lastModified').textContent = `Last Modified: ${document.lastModified}`;
+
