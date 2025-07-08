@@ -1,3 +1,10 @@
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('nav-links');
+
+hamburger.addEventListener('click', () => {
+  navLinks.classList.toggle('show');
+});
+
 const courses = [
   { code: "WDD 130", name: "Web Fundamentals", credits: 2, completed: true },
   { code: "WDD 131", name: "Dynamic Web Fundamentals", credits: 2, completed: true },
