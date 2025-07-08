@@ -62,4 +62,3 @@ yearSpan.textContent = currentYear;
 
 const modifiedSpan = document.getElementById("modified");
 modifiedSpan.textContent = document.lastModified;
-
