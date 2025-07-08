@@ -48,9 +48,11 @@ menuButton.addEventListener('click', () => {
   navMenu.classList.toggle('show');
 });
 
-// Dynamic copyright year
-document.getElementById('year').textContent = new Date().getFullYear();
+const yearSpan = document.getElementById("year");
+const currentYear = new Date().getFullYear();
+yearSpan.textContent = currentYear;
 
-// Last modified
-document.getElementById('lastModified').textContent = `Last Modified: ${document.lastModified}`;
+
+const modifiedSpan = document.getElementById("modified");
+modifiedSpan.textContent = document.lastModified;
 

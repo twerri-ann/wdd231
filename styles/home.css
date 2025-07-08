@@ -104,3 +104,11 @@ footer {
     margin: 0.5rem 0;
   }
 }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 100px;
+}
