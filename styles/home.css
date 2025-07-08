@@ -15,6 +15,10 @@ header {
   padding: 1rem;
 }
 
+.hamburger {
+  display: none;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -87,6 +91,10 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .hamburger{
+    display: block;
+  }
+
   #menu-button {
     display: block;
   }
