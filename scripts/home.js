@@ -55,10 +55,5 @@ menuButton.addEventListener('click', () => {
   navMenu.classList.toggle('show');
 });
 
-const yearSpan = document.getElementById("year");
-const currentYear = new Date().getFullYear();
-yearSpan.textContent = currentYear;
-
-
-const modifiedSpan = document.getElementById("modified");
-modifiedSpan.textContent = document.lastModified;
+document.getElementById('year').textContent = new Date().getFullYear();
+document.getElementById('lastModified').textContent = document.lastModified;

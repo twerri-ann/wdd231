@@ -1,0 +1,48 @@
+/* Reset styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+.view-buttons {
+  margin: 1rem 0;
+}
+
+#members {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+#members.list-view {
+  display: block;
+}
+
+#members section {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  background: #f9f9f9;
+}
+
+#members img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive Menu, etc. */
