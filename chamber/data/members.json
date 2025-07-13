@@ -1,17 +1,17 @@
 [
   {
-    "name": "Local Bakery",
-    "address": "123 Main St",
-    "phone": "555-1234",
-    "website": "https://localbakery.com",
-    "image": "images/bakery.jpg",
+    "name": "Whitfield Bakery",
+    "address": "5 Main Street, May Pen, Clarendon, Jamaica.",
+    "phone": "(876) 986-2256, (876)786-1749",
+    "website": "http://www.whitfieldbakery.com",
+    "image": "images/bakery",
     "membership": 2
   },
   {
-    "name": "Tech Solutions",
-    "address": "456 Tech Park",
-    "phone": "555-5678",
-    "website": "https://techsolutions.com",
+    "name": "Browns Furnishing",
+    "address": "7 Browns Terrace, May Pen, Clarendon, Jamaica.",
+    "phone": "876-481-7752",
+    "website": "https://brownsfurnishing.com",
     "image": "images/tech.jpg",
     "membership": 3
   }
