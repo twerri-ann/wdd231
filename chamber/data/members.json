@@ -21,7 +21,7 @@
     "phone": "876-904-2618, 876-904-2625",
     "website": "https://juicipatties.com/",
     "image": "images/juici.jpg",
-    "membership": 3
+    "membership": 1
   },
   {
     "name": "Glenmuir High School",
@@ -29,7 +29,7 @@
     "phone": "876-986-2372",
     "website": "https://www.glenmuir.edu.jm/",
     "image": "images/glenmuir.jpg",
-    "membership": 4
+    "membership": 3
   },
   {
     "name": "Stewarts Hardware Ltd",
@@ -45,7 +45,7 @@
     "phone": "876-541-2129",
     "website": "https://www.nicabautosales.online/shop",
     "image": "images/glenmuir.jpg",
-    "membership": 4
+    "membership": 2
   },
   {
     "name": "Whitely and Sons Funeral Home",
