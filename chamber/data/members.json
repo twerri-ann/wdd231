@@ -14,5 +14,45 @@
     "website": "https://brownsfurnishing.com",
     "image": "images/furniture.jpg",
     "membership": 3
+  },
+  {
+    "name": "Juici Patties",
+    "address": "Clarendon Park, Clarendon, Jamaica",
+    "phone": "876-904-2618, 876-904-2625",
+    "website": "https://juicipatties.com/",
+    "image": "images/juici.jpg",
+    "membership": 3
+  },
+  {
+    "name": "Glenmuir High School",
+    "address": "10 Glenmuir Road, May Pen, Clarendon, Jamaica",
+    "phone": "876-986-2372",
+    "website": "https://www.glenmuir.edu.jm/",
+    "image": "images/glenmuir.jpg",
+    "membership": 4
+  },
+  {
+    "name": "Stewarts Hardware Ltd",
+    "address": "56 Manchester Avenue, May Pen, Clarendon, Jamaica",
+    "phone": "876-986-9100",
+    "website": "https://stewartshardware.com/",
+    "image": "images/glenmuir.jpg",
+    "membership": 1
+  },
+  {
+    "name": "Nicab Auto Cars",
+    "address": "Lot 40 Bustamante Highway, May Pen, Clarendon, Jamaica",
+    "phone": "876-541-2129",
+    "website": "https://www.nicabautosales.online/shop",
+    "image": "images/glenmuir.jpg",
+    "membership": 1
+  },
+  {
+    "name": "Whitely and Sons Funeral Home",
+    "address": "3B Nelson Street, May Pen, Clarendon, Jamaica",
+    "phone": "876-788-6239",
+    "website": "https://www.nicabautosales.online/shop",
+    "image": "images/glenmuir.jpg",
+    "membership": 1
   }
 ]
