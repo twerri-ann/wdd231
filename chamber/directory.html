@@ -21,33 +21,32 @@
    <script src="scripts/directory.js" defer></script>   
 </head>
 <body>
-   <header>
-      <h1>Clarendon Chamber of Commerce</h1>
-      <nav>
+    <header>
+       <h1>Clarendon Chamber of Commerce</h1>
+       <nav>
          <button id="menuBtn">Menu</button>
-         <ul id="navMenu">
+          <div id="navMenu" class="nav-links">
             <a href="index.html">Home</a>
             <a href="directory.html">Directory</a>
             <a href="contact.html">Contact</a>
-         </ul>
+          </div>
       </nav>
-  </header>
+    </header>
+    <main>
+        <h2>Business Directory</h2>
+         <div class="view-buttons">
+            <button id="grid">Grid View</button>
+            <button id="list">List View</button>
+         </div>
+        <section id="members" class="grid-view">
+        <!-- Members will be injected here by JavaScript -->
+        </section>
+   </main>
 
-  <main>
-    <h2>Business Directory</h2>
-    <div class="view-buttons">
-      <button id="grid">Grid View</button>
-      <button id="list">List View</button>
-    </div>
-    <section id="members" class="grid-view">
-      <!-- Members will be injected here by JavaScript -->
-    </section>
-  </main>
-
-  <footer>
-    <p>Contact us at info@yourchamber.com | (876) 509-5755</p>
-    <p>&copy; <span id="year"></span> | Terri-Ann Bassaragh | WDD 231</p>
-    <p>Last Modified: <span id="lastModified"></span></p>
-  </footer>
+   <footer>
+        <p>Contact us at info@yourchamber.com | (876) 509-5755</p>
+        <p>&copy; <span id="year"></span> | Terri-Ann Bassaragh | WDD 231</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+   </footer>
 </body>
 </html>
