@@ -36,7 +36,7 @@
     "address": "56 Manchester Avenue, May Pen, Clarendon, Jamaica",
     "phone": "876-986-9100",
     "website": "https://stewartshardware.com/",
-    "image": "images/glenmuir.jpg",
+    "image": "images/stewart.jpg",
     "membership": 1
   },
   {
@@ -44,7 +44,7 @@
     "address": "Lot 40 Bustamante Highway, May Pen, Clarendon, Jamaica",
     "phone": "876-541-2129",
     "website": "https://www.nicabautosales.online/shop",
-    "image": "images/glenmuir.jpg",
+    "image": "images/nicab.jpg",
     "membership": 2
   },
   {
@@ -52,7 +52,7 @@
     "address": "3B Nelson Street, May Pen, Clarendon, Jamaica",
     "phone": "876-788-6239",
     "website": "https://www.nicabautosales.online/shop",
-    "image": "images/glenmuir.jpg",
+    "image": "images/funeral.jpg",
     "membership": 2
   }
 ]
