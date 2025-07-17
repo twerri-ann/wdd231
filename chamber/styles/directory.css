@@ -49,4 +49,10 @@ nav ul li {
   height: auto;
 }
 
+@media (max-width: 768px) {
+  .hamburger{
+    display: block;
+  }
+}
+
 /* Responsive Menu, etc. */
