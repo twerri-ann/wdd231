@@ -2,6 +2,13 @@
 document.getElementById('year').textContent = new Date().getFullYear();
 document.getElementById('lastModified').textContent = document.lastModified;
 
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('nav-links');
+
+hamburger.addEventListener('click', () => {
+  navLinks.classList.toggle('show');
+});
+
 // Elements
 const membersContainer = document.getElementById('members');
 const gridBtn = document.getElementById('grid');
