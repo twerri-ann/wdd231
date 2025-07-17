@@ -1,3 +1,6 @@
+document.getElementById('year').textContent = new Date().getFullYear();
+document.getElementById('lastModified').textContent = document.lastModified;
+
 const hamburger = document.getElementById('hamburger');
 const navLinks = document.getElementById('nav-links');
 
@@ -49,11 +52,8 @@ document.getElementById('cse-btn').addEventListener('click', () => displayCourse
 
 
 const menuButton = document.getElementById('menu-button');
-const navMenu = document.getElementById('nav-menu').querySelector('ul');
+const navMenu = document.getElementById('nav-menu');
 
 menuButton.addEventListener('click', () => {
   navMenu.classList.toggle('show');
 });
-
-document.getElementById('year').textContent = new Date().getFullYear();
-document.getElementById('lastModified').textContent = document.lastModified;
