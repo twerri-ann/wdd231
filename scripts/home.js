@@ -49,11 +49,3 @@ displayCourses('All');
 document.getElementById('all-btn').addEventListener('click', () => displayCourses('All'));
 document.getElementById('wdd-btn').addEventListener('click', () => displayCourses('WDD'));
 document.getElementById('cse-btn').addEventListener('click', () => displayCourses('CSE'));
-
-
-const menuButton = document.getElementById('menu-button');
-const navMenu = document.getElementById('nav-menu');
-
-menuButton.addEventListener('click', () => {
-  navMenu.classList.toggle('show');
-});
