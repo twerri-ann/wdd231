@@ -18,7 +18,8 @@
    <title>Clarendon Chamber Directory</title>
    <link rel="icon" href="favicon.ico" type="image/x-icon" />
    <link rel="stylesheet" href="styles/directory.css" />
-   <script src="scripts/index.js" defer></script>   
+   <script src="scripts/index.js" defer></script> 
+   <script src="scripts/spotlight.js" defer></script>
 </head>
 <body>
     <header>
@@ -34,7 +35,46 @@
           </div>
       </nav>
     </header>
-    
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+         <img src="images/hero.jpg" alt="Welcome to Clarendon Chamber of Commerce">
+         <div class="cta">
+            <h1>Join the Clarendon Chamber of Commerce Today!</h1>
+            <a href="join.html" class="cta-button">Become a Member</a>
+         </div>
+      </section>
+
+       <!-- Current Events -->
+       <section class="events">
+           <h2>Upcoming Events</h2>
+           <ul>
+               <li>Business Mixer - July 25</li>
+               <li>Farmers Market - Every Saturday</li>
+               <li>Leadership Workshop - August 5</li>
+           </ul>
+       </section>
+
+       <!-- Weather -->
+       <section class="weather">
+           <h2>Current Weather</h2>
+           <div id="current-weather">
+              <p><span id="temp"></span> - <span id="desc"></span></p>
+           </div>
+           <div id="forecast">
+                 <h3>3-Day Forecast</h3>
+                 <ul id="forecast-list"></ul>
+           </div>
+        </section>
+
+        <!-- Spotlights -->
+        <section class="spotlights">
+            <h2>Member Spotlights</h2>
+            <div class="spotlight-container" id="spotlight-container">
+        <!-- JS inserts spotlight cards here -->
+            </div>
+        </section>
+   </main>
    <footer>
         <p>Contact us at info@yourchamber.com | (876) 509-5755</p>
         <p>&copy; <span id="year"></span> | Terri-Ann Bassaragh | WDD 231</p>
