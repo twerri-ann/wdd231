@@ -13,12 +13,12 @@ fetch('data/members.json')
       const card = document.createElement('div');
       card.classList.add('spotlight-card');
       card.innerHTML = `
-        <img src="${member.logo}" alt="${member.name} logo">
-        <h3>${member.name}</h3>
-        <p>${member.address}</p>
-        <p>${member.phone}</p>
-        <a href="${member.website}" target="_blank">Visit Website</a>
-        <p class="level">${member.membership} Member</p>
+        <img src="${image}" alt="${name} logo">
+        <h3>${name}</h3>
+        <p>${address}</p>
+        <p>${phone}</p>
+        <a href="${website}" target="_blank">Visit Website</a>
+        <p class="level">${membership} Member</p>
       `;
       container.appendChild(card);
     });
