@@ -1,9 +1,9 @@
 document.getElementById('year').textContent = new Date().getFullYear();
 document.getElementById('lastModified').textContent = document.lastModified;
 
-const apiKey = "YOUR_API_KEY";
-const lat = "xx.xxxx";
-const lon = "xx.xxxx";
+const apiKey = "0a1feb94d08792c47e7a238e5b301745";
+const lat = "17.9634";
+const lon = "-77.2434";
 
 const weatherURL = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&exclude=minutely,hourly,alerts&units=metric&appid=${apiKey}`;
 

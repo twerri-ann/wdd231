@@ -1,15 +1,23 @@
 fetch('data/members.json')
-  .then(res => res.json())
+  .then(res => {
+    if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+    return res.json();
+  })
   .then(data => {
-    const goldSilver = data.members.filter(member =>
+    // If data is an array of members directly:
+    const goldSilver = data.filter(member =>
       member.membership === 'Gold' || member.membership === 'Silver'
     );
-    
+
+    // Shuffle and select 3
     const shuffled = goldSilver.sort(() => 0.5 - Math.random());
     const spotlights = shuffled.slice(0, 3);
 
     const container = document.getElementById('spotlight-container');
     spotlights.forEach(member => {
+      // Destructure member properties
+      const { name, image, address, phone, website, membership } = member;
+
       const card = document.createElement('div');
       card.classList.add('spotlight-card');
       card.innerHTML = `
@@ -22,4 +30,8 @@ fetch('data/members.json')
       `;
       container.appendChild(card);
     });
+  })
+  .catch(error => {
+    document.getElementById('spotlight-container').innerHTML = `<p>Error loading members: ${error.message}</p>`;
+    console.error(error);
   });
