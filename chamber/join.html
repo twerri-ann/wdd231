@@ -22,7 +22,6 @@
 </head>
 <body>
     <header>
-       <h1>Clarendon Chamber Directory</h1>
        <nav>
           <button class="hamburger" id="hamburger">
                 &#9776; <!-- Unicode for ☰ -->
@@ -35,66 +34,67 @@
       </nav>
     </header>
     <main>
-    <form id="joinForm" method="get" action="thankyou.html">
-      <label>
-        First Name:
-        <input type="text" name="fname" required title="Enter your first name" autocomplete="given-name" />
-      </label>
-      <label>
-        Last Name:
-        <input type="text" name="lname" required title="Enter your last name" autocomplete="family-name" />
-      </label>
-      <label>
-        Organizational Title:
-        <input type="text" name="orgtitle" title="Your title in the organization" pattern="[A-Za-z\\-\\s]{7,}" autocomplete="organization-title" />
-      </label>
-      <label>
-        Email:
-        <input type="email" name="email" required title="Enter your email address" autocomplete="email" placeholder="name@example.com" />
-      </label>
-      <label>
-        Mobile Number:
-        <input type="tel" name="phone" required title="Enter your phone number" autocomplete="tel" />
-      </label>
-      <label>
-        Business/Organization Name:
-        <input type="text" name="orgname" required title="Enter business or organization name" autocomplete="organization" />
-      </label>
-      <label>
-        Membership Level:
-        <select name="membership" required title="Select membership level">
-          <option value="NP">NP Membership (Free)</option>
-          <option value="Bronze">Bronze Membership</option>
-          <option value="Silver">Silver Membership</option>
-          <option value="Gold">Gold Membership</option>
-        </select>
-      </label>
-      <label>
-        Business Description:
-        <textarea name="description" title="Describe your business"></textarea>
-      </label>
-      <input type="hidden" name="timestamp" id="timestamp" />
-      <input type="submit" value="Join Now" />
-    </form>
+       <h1>Clarendon Chamber Directory</h1>
+       <form id="joinForm" method="get" action="thankyou.html">
+          <label>
+           First Name:
+           <input type="text" name="fname" required title="Enter your first name" autocomplete="given-name" />
+          </label>
+          <label>
+            Last Name:
+           <input type="text" name="lname" required title="Enter your last name" autocomplete="family-name" />
+          </label>
+         <label>
+            Organizational Title:
+           <input type="text" name="orgtitle" title="Your title in the organization" pattern="[A-Za-z\\-\\s]{7,}" autocomplete="organization-title" />
+         </label>
+          <label>
+            Email:
+            <input type="email" name="email" required title="Enter your email address" autocomplete="email" placeholder="name@example.com" />
+          </label>
+          <label>
+             Mobile Number:
+            <input type="tel" name="phone" required title="Enter your phone number" autocomplete="tel" />
+          </label>
+          <label>
+             Business/Organization Name:
+          <input type="text" name="orgname" required title="Enter business or organization name" autocomplete="organization" />
+          </label>
+          <label>
+             Membership Level:
+             <select name="membership" required title="Select membership level">
+                <option value="NP">NP Membership (Free)</option>
+                <option value="Bronze">Bronze Membership</option>
+                <option value="Silver">Silver Membership</option>
+                <option value="Gold">Gold Membership</option>
+             </select>
+          </label>
+          <label>
+               Business Description:
+             <textarea name="description" title="Describe your business"></textarea>
+          </label>
+          <input type="hidden" name="timestamp" id="timestamp" />
+          <input type="submit" value="Join Now" />
+       </form>
 
-    <section id="membership-cards">
-      <div class="card" data-level="NP">
-        <h3>NP Membership</h3>
-        <a href="#modal-np">View Benefits</a>
-      </div>
-      <div class="card" data-level="Bronze">
-        <h3>Bronze Membership</h3>
-        <a href="#modal-bronze">View Benefits</a>
-      </div>
-      <div class="card" data-level="Silver">
-        <h3>Silver Membership</h3>
-        <a href="#modal-silver">View Benefits</a>
-      </div>
-      <div class="card" data-level="Gold">
-        <h3>Gold Membership</h3>
-        <a href="#modal-gold">View Benefits</a>
-      </div>
-    </section>
+       <section id="membership-cards">
+          <div class="card" data-level="NP">
+             <h3>NP Membership</h3>
+            <a href="#modal-np">View Benefits</a>
+          </div>
+          <div class="card" data-level="Bronze">
+            <h3>Bronze Membership</h3>
+            <a href="#modal-bronze">View Benefits</a>
+          </div>
+          <div class="card" data-level="Silver">
+             <h3>Silver Membership</h3>
+             <a href="#modal-silver">View Benefits</a>
+          </div>
+          <div class="card" data-level="Gold">
+             <h3>Gold Membership</h3>
+             <a href="#modal-gold">View Benefits</a>
+          </div>
+        </section>
 
     <!-- Modals -->
     <div class="modal" id="modal-np">
