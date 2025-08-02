@@ -1,0 +1,31 @@
+:root {
+    --primary-color: darkred;
+    --secondary-color: yellow;
+
+    --heading-font: 'Lora', serif;
+    --paragraph-front: 'Edu VIC WA NT Hand Precursive', sans-serif;
+}
+
+header {
+    margin: 0 0.25rem 0 1rem;
+    width: 64px;
+    height: auto;
+    background-color: var(--primary-color);
+    color: var(--secondary-color );
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    align-self: center;
+}
+
+p {
+    font-family: var(--paragraph-front);
+}
+
+section {
+    margin: 50px 0;
+    display: grid;
+    align-items: center;
+    text-align: justify;
+}
