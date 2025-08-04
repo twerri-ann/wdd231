@@ -1,6 +1,6 @@
 :root {
-    --primary-color: darkred;
-    --secondary-color: yellow;
+    --primary-color: #3A5084;
+    --secondary-color: yellowgreen;
 
     --heading-font: 'Lora', serif;
     --paragraph-front: 'Edu VIC WA NT Hand Precursive', sans-serif;
@@ -12,6 +12,11 @@ header {
     height: auto;
     background-color: var(--primary-color);
     color: var(--secondary-color );
+}
+
+head, header, main, footer {
+    background-color: #3A5084;
+    color: var(--secondary-color);
 }
 
 h1, h2 {
