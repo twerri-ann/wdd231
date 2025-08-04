@@ -1,16 +1,58 @@
 [
   {
     "title": "Hope Botanical Gardens",
-    "image": "images/hope-gardens.webp",
+    "image": "images/hope.webp",
     "address": "Hope Rd, Kingston, Jamaica",
-    "description": "A peaceful botanical garden offering tours, picnic spots, and exotic flora.",
+    "description": "A peaceful garden featuring exotic plants, open lawns, and picnic areas. Perfect for family outings and nature walks.",
     "link": "#"
   },
   {
     "title": "Bob Marley Museum",
-    "image": "images/bob-marley.webp",
+    "image": "images/bob.webp",
     "address": "56 Hope Rd, Kingston, Jamaica",
-    "description": "Explore the life and music of Bob Marley in his former home and studio.",
+    "description": "The legendary home and recording studio of Bob Marley, now a museum dedicated to his life and music.",
+    "link": "#"
+  },
+  {
+    "title": "Devon House",
+    "image": "images/devon.webp",
+    "address": "26 Hope Rd, Kingston, Jamaica",
+    "description": "A historic mansion with shops, a bakery, and Jamaica's most famous ice cream. A cultural and culinary treasure.",
+    "link": "#"
+  },
+  {
+    "title": "Emancipation Park",
+    "image": "images/Emancipation.webp",
+    "address": "New Kingston, Kingston, Jamaica",
+    "description": "A beautifully landscaped urban park with sculptures, walking paths, and a peaceful atmosphere for locals and visitors.",
+    "link": "#"
+  },
+  {
+    "title": "National Gallery of Jamaica",
+    "image": "images/national.webp",
+    "address": "Kingston Mall, Downtown Kingston, Jamaica",
+    "description": "Jamaica’s premier art gallery showcasing modern and traditional Caribbean artwork from local and international artists.",
+    "link": "#"
+  },
+  {
+    "title": "Blue Mountain Peak",
+    "image": "images/blue.webp",
+    "address": "Blue Mountains National Park, St. Andrew, Jamaica",
+    "description": "Home to the famous Blue Mountain Coffee, offering breathtaking hikes, misty views, and cool temperatures.",
+    "link": "#"
+  },
+  {
+    "title": "Port Royal",
+    "image": "images/port.webp",
+    "address": "Palasadoes, Port Royal, Jamaica",
+    "description": "Once called 'the wickedest city on earth', this historic pirate town offers forts, seafood, and rich colonial history.",
+    "link": "#"
+  },
+  {
+    "title": "Lime Cay",
+    "image": "images/lime.webp",
+    "address": "Offshore from Port Royal, Kingston Harbour",
+    "description": "A small island with white sand beaches and clear water. Accessible by boat, it's a local favorite for relaxation.",
     "link": "#"
   }
 ]
