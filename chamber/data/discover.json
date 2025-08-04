@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Hope Botanical Gardens",
+    "image": "images/hope-gardens.webp",
+    "address": "Hope Rd, Kingston, Jamaica",
+    "description": "A peaceful botanical garden offering tours, picnic spots, and exotic flora.",
+    "link": "#"
+  },
+  {
+    "title": "Bob Marley Museum",
+    "image": "images/bob-marley.webp",
+    "address": "56 Hope Rd, Kingston, Jamaica",
+    "description": "Explore the life and music of Bob Marley in his former home and studio.",
+    "link": "#"
+  }
+]
