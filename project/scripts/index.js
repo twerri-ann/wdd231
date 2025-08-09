@@ -16,7 +16,7 @@ const listBtn = document.getElementById('list');
 // Fetch members JSON
 async function getMembers() {
   try {
-    const response = await fetch('data/members.json'); // adjust path if needed
+    const response = await fetch('data/class.json'); // adjust path if needed
     if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
     const members = await response.json();
     displayMembers(members);
@@ -34,10 +34,8 @@ function displayMembers(members) {
     card.innerHTML = `
       <img src="${member.image}" alt="Logo of ${member.name}" loading="lazy">
       <h3>${member.name}</h3>
-      <p>${member.address}</p>
-      <p>Phone: <a href="tel:${member.phone}">${member.phone}</a></p>
-      <p><a href="${member.website}" target="_blank" rel="noopener">Visit Website</a></p>
-      <p>Membership Level: ${membershipText(member.membership)}</p>
+      <p>Location: ${member.address}</p>
+      <p>Difficulty Level: ${membershipText(member.membership)}</p>
     `;
     membersContainer.appendChild(card);
   });
@@ -45,10 +43,10 @@ function displayMembers(members) {
 
 function membershipText(level) {
   switch(level) {
-    case 3: return "Gold";
-    case 2: return "Silver";
-    case 1: return "Member";
-    default: return "Member";
+    case 3: return "Hard";
+    case 2: return "Medium";
+    case 1: return "Easy";
+    default: return "Easy";
   }
 }
 

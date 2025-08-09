@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Show the general overview of what Kuluku Musics does.">
+   <meta name="author" content="Terri-Ann Bassaragh">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+  <!-- Facebook Open Graph Meta -->
+   <meta property="og:title" content="Kaluku Musics" />
+   <meta property="og:description" content="Show the general overview of what Kuluku Musics does." />
+    <meta property="og:image" content="images/logo.png" />
+   <meta property="og:url" content="https://twerri-ann.github.io/chamber/directory.html" />
+
+   <title>Kaluku Musics</title>
+   <link rel="icon" href="favicon.ico" type="image/x-icon" />
+   <link rel="stylesheet" href="styles/index.css" />
+   <script src="scripts/index.js" defer></script>   
+</head>
+<body>
+    <header>
+       <nav>
+          <button class="hamburger" id="hamburger">
+                &#9776; <!-- Unicode for ☰ -->
+          </button>
+          <div id="nav-links" class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="classes.html">Classes</a>
+            <a href="book.html">Book</a>
+          </div>
+      </nav>
+    </header>
+    <main>
+       <h1>Kaluku Musics</h1>
+       <p>Kaluku Musics is a music school that provides training in various aspects of music, including performance, theory, composition, and music appreciation. It offers structured lessons for a range of instruments, voice, and sometimes digital music production, catering to students of different ages and skill levels. Kaluku Musics combines practical instruction—such as learning technique, reading sheet music, and developing stage presence—with academic studies like music history and ear training. The school also hosts recitals, competitions, and ensemble opportunities, helping students build confidence, collaborate with others, and apply their skills in real-world performances. Ultimately, Kaluku Musics aims to nurture talent, foster creativity, and develop a deep understanding and appreciation of music.</p>
+        <h2>Music Classes Offered</h2>
+         <div class="view-buttons">
+            <button id="grid">Grid View</button>
+            <button id="list">List View</button>
+         </div>
+        <section id="members" class="grid-view">
+        <!-- Members will be injected here by JavaScript -->
+        </section>
+   </main>
+
+   <footer>
+        <p>Contact us at kalukumusics@yourinfo.com | (876) 509-5755</p>
+        <p>&copy; <span id="year"></span> | Terri-Ann Bassaragh | WDD 231</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+   </footer>
+</body>
+</html>

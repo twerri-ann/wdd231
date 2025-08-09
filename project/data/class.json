@@ -1,58 +1,58 @@
 [  
   {
-    "name": "Whitfield Bakery",
+    "name": "Violin",
     "address": "5 Main Street, May Pen, Clarendon, Jamaica.",
     "phone": "(876) 986-2256, (876)786-1749",
     "website": "http://www.whitfieldbakery.com",
-    "image": "images/bakery.jpg",
-    "membership": 2
+    "image": "images/violin.jpg",
+    "membership": 3
   },
   {
-    "name": "Browns Furnishing",
+    "name": "Recorder",
     "address": "7 Browns Terrace, May Pen, Clarendon, Jamaica.",
     "phone": "876-481-7752",
     "website": "https://brownsfurnishing.com",
-    "image": "images/furniture.jpg",
-    "membership": 3
+    "image": "images/recorder.jpg",
+    "membership": 1
   },
   {
-    "name": "Juici Patties",
+    "name": "Piano",
     "address": "Clarendon Park, Clarendon, Jamaica",
     "phone": "876-904-2618, 876-904-2625",
     "website": "https://juicipatties.com/",
-    "image": "images/juici.jpg",
-    "membership": 1
-  },
-  {
-    "name": "Glenmuir High School",
-    "address": "10 Glenmuir Road, May Pen, Clarendon, Jamaica",
-    "phone": "876-986-2372",
-    "website": "https://www.glenmuir.edu.jm/",
-    "image": "images/glenmuir.jpg",
-    "membership": 3
-  },
-  {
-    "name": "Stewarts Hardware Ltd",
-    "address": "56 Manchester Avenue, May Pen, Clarendon, Jamaica",
-    "phone": "876-986-9100",
-    "website": "https://stewartshardware.com/",
-    "image": "images/stewart.jpg",
-    "membership": 1
-  },
-  {
-    "name": "Nicab Auto Cars",
-    "address": "Lot 40 Bustamante Highway, May Pen, Clarendon, Jamaica",
-    "phone": "876-541-2129",
-    "website": "https://www.nicabautosales.online/shop",
-    "image": "images/nicab.jpg",
+    "image": "images/piano.jpg",
     "membership": 2
   },
   {
-    "name": "Whitely and Sons Funeral Home",
+    "name": "Guitar",
+    "address": "10 Glenmuir Road, May Pen, Clarendon, Jamaica",
+    "phone": "876-986-2372",
+    "website": "https://www.glenmuir.edu.jm/",
+    "image": "images/guitar.jpg",
+    "membership": 2
+  },
+  {
+    "name": "Drum",
+    "address": "56 Manchester Avenue, May Pen, Clarendon, Jamaica",
+    "phone": "876-986-9100",
+    "website": "https://stewartshardware.com/",
+    "image": "images/drum.jpg",
+    "membership": 1
+  },
+  {
+    "name": "Cello",
+    "address": "Lot 40 Bustamante Highway, May Pen, Clarendon, Jamaica",
+    "phone": "876-541-2129",
+    "website": "https://www.nicabautosales.online/shop",
+    "image": "images/cello.jpg",
+    "membership": 3
+  },
+  {
+    "name": "Marimba",
     "address": "3B Nelson Street, May Pen, Clarendon, Jamaica",
     "phone": "876-788-6239",
     "website": "https://www.nicabautosales.online/shop",
-    "image": "images/funeral.jpg",
+    "image": "images/marimba.jpg",
     "membership": 2
   }
 ]
