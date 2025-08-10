@@ -2,13 +2,13 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #f8f9fa;
-  color: #333;
+  background: #3A5084;
+  color: yellowgreen;
 }
 
 header, footer {
-  background-color: #003366;
-  color: #fff;
+  background-color: #3A5084;
+  color: yellowgreen;
   padding: 1rem;
   text-align: center;
 }
@@ -23,9 +23,13 @@ nav ul {
 }
 
 nav a {
-  color: #fff;
+  color: yellowgreen;
   text-decoration: none;
   font-weight: bold;
+}
+
+nav a:hover{
+    color: yellow;
 }
 
 .hamburger {
@@ -40,7 +44,7 @@ main {
 }
 
 form {
-  background: #fff;
+  background: #3A5159;
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
